@@ -270,6 +270,13 @@ h4{
 	margin-left: 50%;
 }
 
+.success-info {
+	width: 50%;
+	margin-left: 25%;
+  margin-top: 8%;
+  margin-bottom: 15px;
+}
+
 h1, h2{
 	font-weight: 900;
 	text-align: left;
@@ -303,6 +310,14 @@ h3 {
 .info p {
 	margin-top: 2vh;
 	font-size: 16px;
+	font-weight: 600;
+	line-height: 2.4rem;
+	color: #FFFFFF;
+}
+
+.success-info p {
+	margin-top: 2vh;
+	font-size: 22px;
 	font-weight: 600;
 	line-height: 2.4rem;
 	color: #FFFFFF;
@@ -460,55 +475,59 @@ li .glider {
 	.container, .glider{
 		width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhone 3 / 4 / 5) */
 	}
-	
+
 	.big {
 		font-size: 14vh;
 	}
-	
+
 	input[type="submit"] {
 		width: 50%;
 	}
-	
+
 	#signUpForm, #info .container {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	
+
 	#info .container {
 		padding-top: 2vh;
 	}
-	
+
 	#hero, #footer {
 		background-image: url(../images/BG_small.jpg);
 	}
-	
+
 	#info, #segment {
 		background-image: url(../images/info_small.jpg);
 	}
-	
+
 	#register {
 		background-image: url(../images/register_small.jpg);
 	}
-	
+
 	.title {
 		padding-top: 5%;
 		width: 100%;
 	}
-	
+
 	.info {
 		width: 100%;
 		margin-left: 0;
 	}
-	
+
 	.info p {
 		font-size: 12px;
 		line-height: 24px;
 	}
-	
+
 	.info h2 {
 		font-size: 24px;
 	}
-	
+
+  #hero .success-glider{
+    margin-left: 32%;
+  }
+
 	#hero .glider {
 		position: absolute;
 		padding: 5%;
@@ -516,31 +535,31 @@ li .glider {
 		margin-left: 12.5%;
 		margin-bottom: 13vh;
 	}
-	
+
 	.bar #wrapper {
 		width: 90%;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
-	
+
 	ul {
 		width: 90%;
 		margin-left: 5%;
 	}
-	
+
 	#info h2 {
 		width: 90%;
 		margin-left: 5%;
 	}
-	
+
 	#signUpForm h2, .instruct {
 		width: 100%;
 	}
-	
+
 	.partialInstruct {
 		width: 100%;
 	}
-	
+
 	#mandatory, #addOns {
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -567,24 +586,24 @@ li .glider {
 	.container, .glider{
 		width:93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
 	}
-	
+
 	#hero, #footer {
 		background-image: url(../images/BG_large.jpg);
 	}
-	
+
 	#info, #segment {
 		background-image: url(../images/info_large.jpg);
 	}
-	
+
 	#register {
 		background-image: url(../images/register_large.jpg);
 	}
-	
+
 	.title {
 		margin-left: 10%;
 		width: 40%;
 	}
-	
+
 	#hero .glider {
 		position: absolute;
 		bottom: 5rem;
@@ -592,7 +611,7 @@ li .glider {
 		width: 40%;
 		margin-left: 47%;
 	}
-	
+
 	ul {
 		width: 50%;
 		margin-left: 25%;
@@ -605,11 +624,11 @@ li .glider {
 		width: 40%;
 		margin-bottom: 0;
 	}
-	
+
 	.info p {
 		line-height: 1.2rem;
 	}
-	
+
 	#hero .glider {
 		top: 0;
 		bottom: 0rem;
@@ -637,24 +656,24 @@ li .glider {
 		/*width:95.5%;*/
 		width:978px;
 	}
-	
+
 	#hero, #footer {
 		background-image: url(../images/BG_large.jpg);
 	}
-	
+
 	#info, #segment {
 		background-image: url(../images/info_large.jpg);
 	}
-	
+
 	#register {
 		background-image: url(../images/register_large.jpg);
 	}
-	
+
 	.title {
 		padding-top: 2vh;
 		margin-bottom: 3%;
 	}
-	
+
 	#hero .glider {
 		width: 25%;
 		margin-left: 50%;
@@ -667,11 +686,11 @@ li .glider {
 		padding-top: 2vh;
 		margin-bottom: 0;
 	}
-	
+
 	.info p {
 		line-height: 1.6rem;
 	}
-	
+
 	#hero .glider {
 		margin-top: 2vh;
 	}

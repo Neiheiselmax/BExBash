@@ -26,6 +26,8 @@ $(document).ready(function() {
 	   lastScrollTop = st;
 	});
 
+});
+
 	//FUNCTIONS
 // 	$("#signUpForm").on("submit", function(event){
 // 		event.preventDefault();
