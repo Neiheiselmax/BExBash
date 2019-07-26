@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roster>
+	<slot>
+		<teamName>A team</teamName>
+		<score>0</score>
+		<firstMember>Arthur A.</firstMember>
+		<secondMember>Barry B.</secondMember>
+		<thirdMember>Cathy C.</thirdMember>
+		<fourthMember>Denny D.</fourthMember>
+		<powerUps>
+			<goldenBagQuantity>0</goldenBagQuantity>
+			<goldenLineQuantity>0</goldenLineQuantity>
+			<jumboSpoonQuantity>0</jumboSpoonQuantity>
+		</powerUps>
+		<moneyOwed>20</moneyOwed>
+		<paid>N</paid>
+	</slot>
+	<slot>
+		<teamName>B team</teamName>
+		<score>0</score>
+		<firstMember>Arthur A.</firstMember>
+		<secondMember>Barry B.</secondMember>
+		<thirdMember>Cathy C.</thirdMember>
+		<fourthMember>Denny D.</fourthMember>
+		<powerUps>
+			<goldenBagQuantity>0</goldenBagQuantity>
+			<goldenLineQuantity>0</goldenLineQuantity>
+			<jumboSpoonQuantity>0</jumboSpoonQuantity>
+		</powerUps>
+		<moneyOwed>20</moneyOwed>
+		<paid>N</paid>
+	</slot>
+</roster>
